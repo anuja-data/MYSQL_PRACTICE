@@ -37,7 +37,6 @@ alter table department drop primary key;
 /*alter table staff add foreign key(dept_id) references department(dept_id);*/
 
 
-/*Rename a table*/
 alter table staff rename staff1;
 
 desc staff1;
