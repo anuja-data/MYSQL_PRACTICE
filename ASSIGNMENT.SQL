@@ -94,4 +94,4 @@ TRUNCATE TABLE Investor;
 SELECT * FROM Investor;
 
 DROP TABLE Investor;
-DROP TABLE Emp;
+
