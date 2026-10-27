@@ -73,22 +73,4 @@ HAVING COUNT(*) > 1;
 -- 3. DCL: GRANT AND REVOKE
 -- =====================================
 
--- Create a database user
-CREATE USER IF NOT EXISTS 'student_user'@'localhost'
-IDENTIFIED BY 'Study123!';
-
--- Give permission to read student records
-GRANT SELECT ON JoinDB.Student
-TO 'student_user'@'localhost';
-
--- Give permission to insert records
-GRANT INSERT ON JoinDB.Student
-TO 'student_user'@'localhost';
-
--- Remove insert permission
-REVOKE INSERT ON JoinDB.Student
-FROM 'student_user'@'localhost';
-
--- Remove read permission
-REVOKE SELECT ON JoinDB.Student
-FROM 'student_user'@'localhost';
+-
