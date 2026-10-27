@@ -414,3 +414,15 @@ FROM Students
 GROUP BY DeptID
 HAVING AVG(Marks) > 75;
 
+-- Combined WHERE, GROUP BY, HAVING and ORDER BY
+SELECT City, AVG(Marks) AS AverageMarks
+FROM Students
+WHERE Marks > 60
+GROUP BY City
+HAVING AVG(Marks) > 70
+ORDER BY AverageMarks DESC;
+
+
+-- =========================================================
+-- END OF SQL PRACTICAL
+-- =========================================================
