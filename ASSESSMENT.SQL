@@ -15,11 +15,6 @@ CREATE TABLE doctor (
     Speciality VARCHAR(50)
 );
 
-INSERT INTO hospital VALUES
-(1, 'City Hospital', 'Pune', 1985),
-(2, 'Life Care Hospital', 'Mumbai', 1995),
-(3, 'Sunrise Hospital', 'Nashik', 1975),
-(4, 'Civil Hospital', 'Pune', 2000),
 (5, 'Global Hospital', 'Nagpur', 1988);
 
 INSERT INTO doctor VALUES
