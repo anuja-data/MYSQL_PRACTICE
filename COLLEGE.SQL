@@ -151,7 +151,5 @@ ROLLBACK TO S1;
 COMMIT;
 
 -- 18. DELETE TABLE
-DROP VIEW TopStudents;
-DROP TABLE Enrollments;
-DROP TABLE Courses;
-DROP TABLE Students;
+
+
