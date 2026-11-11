@@ -154,4 +154,4 @@ COMMIT;
 DROP VIEW TopStudents;
 DROP TABLE Enrollments;
 DROP TABLE Courses;
-
+DROP TABLE Students;
