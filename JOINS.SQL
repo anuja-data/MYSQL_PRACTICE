@@ -95,3 +95,4 @@ select * from employees
  where projects.employee_id is null;
  
  select * from employees;
+ select * from projects;
