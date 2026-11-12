@@ -88,7 +88,7 @@ insert into EMPLOYEE5 values(8,'dhe','sdguqe',56,35863);
 -- Default Constraint --
 Create table Employee8 (EmpID int NOT NULL, FirstName Varchar(50), LastName Varchar(50), EmpDept Varchar(50) Default 'Operations');
 
-Desc EMPLOYEE8;
+
 
 
 
