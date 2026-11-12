@@ -422,7 +422,4 @@ GROUP BY City
 HAVING AVG(Marks) > 70
 ORDER BY AverageMarks DESC;
 
-
--- =========================================================
 -- END OF SQL PRACTICAL
--- =========================================================
