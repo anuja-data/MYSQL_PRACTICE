@@ -120,3 +120,4 @@ SELECT DISTINCT city FROM Customer;
 -- 21. Final Display
 SELECT * FROM Customer;
 SELECT * FROM Account;
+SELECT * FROM Transactions;
