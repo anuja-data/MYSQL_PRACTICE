@@ -72,6 +72,3 @@ UPDATE Book
 SET price = 650
 WHERE book_id = 2;
 
--- 20. Delete a member
-DELETE FROM Member
-WHERE member_id = 105;
