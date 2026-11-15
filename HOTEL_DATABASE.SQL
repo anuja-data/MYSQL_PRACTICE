@@ -138,5 +138,4 @@ SELECT
 FROM bookings
 JOIN customers
 ON bookings.customer_id = customers.customer_id
-JOIN rooms
-ON bookings.room_id = rooms.room_id;
+
